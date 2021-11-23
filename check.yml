@@ -2,7 +2,7 @@
 - hosts: all
 
   vars:
-    oscap_profile: xccdf_org.ssgproject.content_profile_pci-dss
+    oscap_profile: xccdf_org.ssgproject.content_profile_stig
     oscap_policy: ssg-rhel-dss
 
   tasks:
